@@ -1,0 +1,86 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  border: 2px solid black;
+  margin: 1vw 2vh;
+}
+
+.logo {
+  width: 3.8vw;
+  height: 7vh;
+  border-radius: 100px;
+  margin: 2vh;
+}
+
+.nav-items ul {
+  display: flex;
+  padding: 2vw;
+}
+
+.nav-items li {
+  margin: 0 2vw;
+  /*to remove bullet in list*/
+  list-style-type: none;
+}
+
+.restaurant_container {
+  width: 100vw;
+  height: 55vh;
+  padding: 2vw;
+  margin-left: 4.8vw;
+  gap: 7vh;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.rest_card:hover {
+  cursor: pointer;
+  border: 2px solid black;
+}
+.search {
+  margin-left: 3vw;
+}
+.rest_card {
+  background-color: #eeeeee;
+  height: 63vh;
+  width: 18.7vw;
+}
+.rest_card img {
+  width: 19vw;
+  height: 30vh;
+  padding: 20px;
+}
+
+.rest_card h2,
+h4 {
+  margin-left: 2vw;
+  margin-top: 20px;
+}
+.body {
+  width: 100%;
+  height: 210vh;
+  /* border: 2px solid black; */
+  overflow: hidden;
+}
+.filter-btn {
+  margin-left: 10vw;
+}
+
+.h {
+  width: 200px;
+  height: 200px;
+  background-color: red;
+  display: inline-block;
+}
